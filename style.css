@@ -51,6 +51,10 @@ body {
     border-radius: 50%;
 }
 
+.container.show-nav .circle {
+    transform: rotate(-70deg)
+}
+
 .circle button {
     cursor: pointer;
     position: absolute;
@@ -129,6 +133,8 @@ nav ul li+li+li {
 
 .content img {
     max-width: 100%;
+    width: 500px;
+    /* : 200px; */
 }
 
 .content {
